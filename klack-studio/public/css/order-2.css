@@ -1,0 +1,204 @@
+.trk-note {
+  max-width: 520px;
+  font-size: var(--fs-sm);
+  color: var(--ink-3);
+  margin: 0;
+}
+.trk-note b {
+  color: var(--ink);
+}
+.trk-steps {
+  margin: var(--gap-6) 0 0;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+  display: grid;
+}
+.trk-steps li {
+  border: 1px solid var(--line);
+  border-radius: var(--r-card);
+  background: var(--surface);
+  padding: 16px 14px 14px;
+  position: relative;
+}
+.trk-steps .trk-no {
+  font-family: var(--font-display);
+  font-size: var(--fs-lg);
+  color: var(--gold-deep, #9c7a2d);
+  margin-bottom: 4px;
+  display: inline-block;
+}
+.trk-steps b {
+  font-size: var(--fs-md);
+  display: block;
+}
+.trk-steps p {
+  font-size: var(--fs-xs);
+  color: var(--ink-3);
+  margin: 4px 0 0;
+  line-height: 1.5;
+}
+.trk-sub {
+  font-size: var(--fs-sm);
+  color: var(--ink-3);
+  margin: 6px 0 0;
+}
+.trk-sub a {
+  color: var(--primary);
+  text-underline-offset: 3px;
+  text-decoration: underline;
+}
+.trk-filters {
+  gap: 6px;
+  display: flex;
+}
+.trk-filters button {
+  border-radius: var(--r-full);
+  border: 1px solid var(--line);
+  background: var(--surface);
+  height: 32px;
+  font-size: var(--fs-sm);
+  color: var(--ink-3);
+  cursor: pointer;
+  padding: 0 12px;
+  font-weight: 700;
+}
+.trk-filters button[aria-selected="true"] {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+}
+.trk-list {
+  margin: var(--gap-6) 0 0;
+  gap: 14px;
+  padding: 0;
+  list-style: none;
+  display: grid;
+}
+.trk-card {
+  border: 1px solid var(--line);
+  border-radius: var(--r-card);
+  background: var(--surface);
+  transition: box-shadow var(--dur) var(--ease);
+  gap: 14px;
+  padding: 18px 20px;
+  display: grid;
+}
+.trk-card.is-open {
+  box-shadow: var(--shadow-hover);
+  border-color: var(--line-strong);
+}
+.trk-head {
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  display: flex;
+}
+.trk-who {
+  grid-template-columns: auto auto;
+  align-items: baseline;
+  gap: 2px 10px;
+  display: grid;
+}
+.trk-nick {
+  font-weight: 800;
+  font-size: var(--fs-sm);
+}
+.trk-brand {
+  font-size: var(--fs-xs);
+  color: var(--ink-4);
+}
+.trk-prod {
+  font-size: var(--fs-md);
+  letter-spacing: -0.01em;
+  grid-column: 1/-1;
+  font-weight: 700;
+}
+.trk-prod a:hover {
+  text-underline-offset: 3px;
+  text-decoration: underline;
+}
+.trk-prod small {
+  color: var(--ink-3);
+  font-weight: 500;
+}
+.trk-amt {
+  font-size: var(--fs-sm);
+  color: var(--ink-2);
+  font-variant-numeric: tabular-nums;
+  grid-column: 1/-1;
+}
+.trk-badge {
+  border-radius: var(--r-full);
+  background: var(--primary-soft);
+  height: 28px;
+  color: var(--primary);
+  font-size: var(--fs-sm);
+  flex: none;
+  align-items: center;
+  padding: 0 12px;
+  font-weight: 800;
+  display: inline-flex;
+}
+.trk-badge.is-done {
+  color: var(--ok, #1a9a5b);
+  background: #e7f6ec;
+}
+.trk-actions {
+  justify-content: flex-end;
+  display: flex;
+}
+.trk-more {
+  border-radius: var(--r-full);
+  border: 1px solid var(--line);
+  background: var(--surface);
+  height: 32px;
+  font-size: var(--fs-sm);
+  color: var(--ink-2);
+  cursor: pointer;
+  padding: 0 12px;
+  font-weight: 700;
+}
+.trk-more:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+.trk-detail {
+  border-top: 1px dashed var(--line);
+  padding: 16px 6px 0;
+}
+.trk-install {
+  border-radius: var(--r);
+  background: var(--primary-soft);
+  font-size: var(--fs-sm);
+  color: var(--ink-2);
+  margin: 0;
+  padding: 8px 12px;
+}
+.trk-install b {
+  color: var(--primary);
+  font-weight: 800;
+}
+.trk-steps {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+@media (min-width: 1100px) {
+  .trk-steps {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+@media (max-width: 760px) {
+  .trk-steps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .trk-card {
+    padding: 14px;
+  }
+  .trk-head {
+    flex-direction: column;
+  }
+  .trk-filters {
+    flex-wrap: wrap;
+  }
+}

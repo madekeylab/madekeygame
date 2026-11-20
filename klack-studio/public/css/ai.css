@@ -1,0 +1,459 @@
+.ai-wrap {
+  grid-template-columns: minmax(0, 1fr) 300px;
+  align-items: start;
+  gap: 24px;
+  margin-top: 8px;
+  display: grid;
+}
+.ai-chat {
+  gap: 16px;
+  display: grid;
+}
+.ai-intro {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: 16px;
+  padding: 18px;
+}
+.ai-intro b {
+  margin-bottom: 6px;
+  font-size: 16px;
+  display: block;
+}
+.ai-intro p {
+  color: var(--ink-3);
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.ai-chips {
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+  display: flex;
+}
+.ai-chips button {
+  border: 1px solid var(--line-2);
+  background: var(--surface-2);
+  color: var(--ink);
+  font: inherit;
+  cursor: pointer;
+  text-align: left;
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: 13px;
+}
+.ai-chips button:hover {
+  border-color: var(--accent);
+}
+.ai-q {
+  background: var(--accent);
+  max-width: 80%;
+  color: var(--accent-ink);
+  white-space: pre-wrap;
+  border-radius: 16px 16px 4px;
+  justify-self: end;
+  padding: 10px 14px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.ai-a {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: 4px 16px 16px;
+  gap: 12px;
+  padding: 16px;
+  display: grid;
+}
+.ai-understood {
+  color: var(--ink-2);
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.ai-understood:before {
+  content: "이해한 내용 · ";
+  color: var(--accent);
+  font-weight: 800;
+}
+.ai-picks {
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+}
+.ai-pick {
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  border-radius: 14px;
+  grid-template-columns: 96px 1fr;
+  gap: 14px;
+  padding: 12px;
+  display: grid;
+}
+.ai-pick .ai-img {
+  object-fit: cover;
+  background: var(--surface);
+  border-radius: 10px;
+  width: 96px;
+  height: 96px;
+}
+.ai-pick .n {
+  background: var(--ink);
+  width: 22px;
+  height: 22px;
+  color: var(--ink-inv, #fff);
+  border-radius: 50%;
+  place-items: center;
+  margin-right: 6px;
+  font:
+    800 12px ui-monospace,
+    monospace;
+  display: inline-grid;
+}
+.ai-pick h3 {
+  margin: 0;
+  font-size: 15.5px;
+  line-height: 1.35;
+}
+.ai-pick h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+.ai-pick .hl {
+  color: var(--accent);
+  margin: 4px 0 6px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.ai-pick ul {
+  color: var(--ink-2);
+  margin: 0;
+  padding-left: 18px;
+  font-size: 13.5px;
+  line-height: 1.65;
+}
+.ai-pick .meta {
+  color: var(--ink-3);
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  font-size: 12.5px;
+  display: flex;
+}
+.ai-pick .meta b {
+  color: var(--ink);
+  font-size: 14px;
+}
+.ai-pick .tag {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: 5px;
+  padding: 2px 7px;
+}
+.ai-pick .caution {
+  color: var(--ink-3);
+  margin: 6px 0 0;
+  font-size: 12.5px;
+}
+.ai-pick .caution:before {
+  content: "참고 · ";
+  font-weight: 700;
+}
+.ai-note {
+  background: var(--surface-2);
+  color: var(--ink-2);
+  border-radius: 10px;
+  margin: 0;
+  padding: 10px 12px;
+  font-size: 13.5px;
+}
+.ai-form {
+  border: 1px solid var(--line-2);
+  background: var(--surface);
+  border-radius: 16px;
+  gap: 8px;
+  padding: 8px;
+  display: flex;
+  position: sticky;
+  bottom: 12px;
+  box-shadow: 0 10px 30px -12px #00000059;
+}
+.ai-form textarea {
+  min-height: 48px;
+  max-height: 140px;
+  color: var(--ink);
+  font: inherit;
+  resize: none;
+  background: 0 0;
+  border: 0;
+  outline: none;
+  flex: 1;
+  padding: 12px;
+  font-size: 15px;
+}
+.ai-form button {
+  background: var(--accent);
+  height: 46px;
+  color: var(--accent-ink);
+  font: inherit;
+  cursor: pointer;
+  border: 0;
+  border-radius: 12px;
+  align-self: end;
+  padding: 0 18px;
+  font-weight: 800;
+}
+.ai-form button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.ai-think {
+  border: 1px dashed var(--line-2);
+  color: var(--ink-3);
+  border-radius: 16px;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+  font-size: 14px;
+  display: flex;
+}
+.ai-dots {
+  gap: 4px;
+  display: inline-flex;
+}
+.ai-dots i {
+  background: var(--accent);
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+  animation: 1s infinite ai-b;
+}
+.ai-dots i:nth-child(2) {
+  animation-delay: 0.15s;
+}
+.ai-dots i:nth-child(3) {
+  animation-delay: 0.3s;
+}
+@keyframes ai-b {
+  0%,
+  80%,
+  to {
+    opacity: 0.25;
+    transform: translateY(0);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(-3px);
+  }
+}
+.ai-err {
+  color: #dc2626;
+  background: #dc26261a;
+  border-radius: 10px;
+  margin: 0;
+  padding: 10px 12px;
+  font-size: 13.5px;
+}
+.ai-side {
+  gap: 12px;
+  display: grid;
+  position: sticky;
+  top: 90px;
+}
+.ai-side section {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: 14px;
+  padding: 16px;
+}
+.ai-side h3 {
+  margin: 0 0 8px;
+  font-size: 14px;
+}
+.ai-side p,
+.ai-side li {
+  color: var(--ink-3);
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.6;
+}
+.ai-side ul {
+  margin: 0;
+  padding-left: 18px;
+}
+.ai-side a.ai-cta {
+  background: var(--ink);
+  color: var(--ink-inv, #fff);
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 9px 12px;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-flex;
+}
+.ap-drop {
+  border: 2px dashed var(--line-2);
+  background: var(--surface-2);
+  text-align: center;
+  cursor: pointer;
+  border-radius: 18px;
+  place-items: center;
+  gap: 8px;
+  min-height: 260px;
+  padding: 20px;
+  display: grid;
+}
+.ap-drop.is-on {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+.ap-drop img {
+  border-radius: 12px;
+  max-width: 100%;
+  max-height: 420px;
+}
+.ap-drop b {
+  font-size: 17px;
+}
+.ap-row {
+  gap: 8px;
+  margin-top: 12px;
+  display: flex;
+}
+.ap-row input {
+  border: 1px solid var(--line-2);
+  background: var(--surface);
+  height: 46px;
+  color: var(--ink);
+  font: inherit;
+  border-radius: 12px;
+  flex: 1;
+  padding: 0 12px;
+}
+.ap-row button {
+  background: var(--accent);
+  height: 46px;
+  color: var(--accent-ink);
+  font: inherit;
+  cursor: pointer;
+  border: 0;
+  border-radius: 12px;
+  padding: 0 20px;
+  font-weight: 800;
+}
+.ap-row button:disabled {
+  opacity: 0.5;
+}
+.ap-res {
+  gap: 14px;
+  margin-top: 18px;
+  display: grid;
+}
+.ap-guess {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: 16px;
+  padding: 18px;
+}
+.ap-guess small {
+  letter-spacing: 0.1em;
+  color: var(--ink-3);
+  font:
+    800 11px ui-monospace,
+    monospace;
+}
+.ap-guess h2 {
+  margin: 6px 0 4px;
+  font-size: 22px;
+}
+.ap-conf {
+  vertical-align: middle;
+  border-radius: 999px;
+  margin-left: 8px;
+  padding: 3px 9px;
+  font-size: 12px;
+  font-weight: 800;
+  display: inline-block;
+}
+.ap-conf.is-high {
+  color: #fff;
+  background: #1f9d55;
+}
+.ap-conf.is-medium {
+  color: #1a1200;
+  background: #e0a100;
+}
+.ap-conf.is-low {
+  background: var(--surface-2);
+  color: var(--ink-2);
+  border: 1px solid var(--line-2);
+}
+.ap-guess p {
+  color: var(--ink-2);
+  margin: 6px 0 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.ap-feats {
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+  display: flex;
+}
+.ap-feats span {
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  border-radius: 7px;
+  padding: 4px 9px;
+  font-size: 12.5px;
+}
+.ap-links {
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+  display: flex;
+}
+.ap-links a {
+  border: 1px solid var(--line-2);
+  color: inherit;
+  border-radius: 10px;
+  padding: 9px 12px;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.ap-links a:after {
+  content: " ↗";
+  color: var(--ink-3);
+}
+.ap-kw {
+  color: var(--ink-3);
+  margin-top: 10px;
+  font-size: 13px;
+}
+.ap-kw code {
+  background: var(--surface-2);
+  color: var(--ink);
+  border-radius: 5px;
+  padding: 2px 6px;
+  font-size: 12.5px;
+}
+@media (max-width: 900px) {
+  .ai-wrap {
+    grid-template-columns: 1fr;
+  }
+  .ai-side {
+    position: static;
+  }
+  .ai-pick {
+    grid-template-columns: 72px 1fr;
+  }
+  .ai-pick .ai-img {
+    width: 72px;
+    height: 72px;
+  }
+}

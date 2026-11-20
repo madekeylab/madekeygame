@@ -1,0 +1,129 @@
+.rw {
+  gap: var(--gap-4);
+  display: grid;
+}
+.rw-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--r-card);
+  padding: 14px 16px;
+}
+.rw-h {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 0 0 8px;
+  font-weight: 700;
+}
+.rw-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+}
+.rw-list li + li {
+  border-top: 1px solid var(--line);
+}
+.rw-list a {
+  font-size: var(--fs-sm);
+  color: var(--ink-2);
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 0;
+  display: flex;
+}
+.rw-list a:hover {
+  color: var(--primary);
+}
+.rw-list a span {
+  color: var(--ink-4);
+  font-size: var(--fs-xs);
+}
+.rw-ch {
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+}
+.rw-ch-i {
+  border-radius: var(--r);
+  background: var(--surface-2);
+  align-items: center;
+  gap: 10px;
+  padding: 9px 10px;
+  display: flex;
+}
+.rw-ch-ico {
+  border-radius: var(--r-full);
+  background: var(--ink-4);
+  flex: none;
+  width: 26px;
+  height: 26px;
+}
+.rw-ch-i.is-kakao .rw-ch-ico {
+  background: var(--slot-kakao);
+}
+.rw-ch-i.is-link {
+  padding: 0;
+}
+.rw-ch-a {
+  width: 100%;
+  color: inherit;
+  border-radius: var(--r);
+  align-items: center;
+  gap: 10px;
+  padding: 9px 10px;
+  display: flex;
+}
+.rw-ch-a:hover {
+  background: var(--surface-2);
+}
+.rw-soon.is-live {
+  color: var(--primary);
+}
+.rw-ch-t {
+  flex: 1;
+  min-width: 0;
+  display: grid;
+}
+.rw-ch-t b {
+  font-size: var(--fs-sm);
+  color: var(--ink);
+  font-weight: 600;
+}
+.rw-ch-t small {
+  font-size: var(--fs-xs);
+  color: var(--ink-4);
+}
+.rw-soon {
+  font-style: normal;
+  font-size: var(--fs-tiny);
+  color: var(--ink-4);
+  border-radius: var(--r-full);
+  background: var(--surface);
+  flex: none;
+  padding: 3px 7px;
+  font-weight: 700;
+}
+.rw-tel {
+  font-size: var(--fs-xl);
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  margin: 0;
+  font-weight: 800;
+}
+.rw-tel.is-pending {
+  font-size: var(--fs-md);
+  color: var(--ink-3);
+  letter-spacing: -0.01em;
+  font-weight: 700;
+}
+.rw-cs-t {
+  font-size: var(--fs-xs);
+  color: var(--ink-4);
+  margin: 6px 0 0;
+  line-height: 1.6;
+}

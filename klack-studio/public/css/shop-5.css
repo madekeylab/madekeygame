@@ -1,0 +1,127 @@
+.info {
+  gap: var(--gap-12);
+  padding-top: var(--gap-8);
+  padding-bottom: var(--gap-16);
+  grid-template-columns: 200px minmax(0, 1fr);
+  display: grid;
+}
+.info-toc {
+  top: calc(var(--header-h) + var(--gap-4));
+  align-self: start;
+  position: sticky;
+}
+.info-toc ul {
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+}
+.info-toc a {
+  border-radius: var(--r);
+  font-size: var(--fs-md);
+  color: var(--ink-2);
+  transition:
+    background var(--dur) var(--ease),
+    color var(--dur) var(--ease);
+  margin: 0 -12px;
+  padding: 10px 12px;
+  display: block;
+}
+.info-toc a:hover {
+  background: var(--surface);
+  color: var(--ink);
+}
+.info-body h1 {
+  margin: 0 0 10px;
+}
+.info-lead {
+  margin: 0 0 var(--gap-10);
+  color: var(--ink-3);
+  font-size: var(--fs-md);
+}
+.info-sec {
+  margin-top: var(--gap-10);
+}
+.info-sec h2 {
+  font-size: var(--fs-xl);
+  margin-bottom: var(--gap-4);
+}
+.info-sec p,
+.info-sec li {
+  font-size: var(--fs-md);
+  color: var(--ink-2);
+  line-height: 1.8;
+}
+.info-sec ul,
+.info-sec ol {
+  gap: 8px;
+  margin: 0;
+  padding-left: 20px;
+  display: grid;
+}
+.info-steps {
+  counter-reset: s;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+  display: grid;
+}
+.info-steps li {
+  background: var(--surface);
+  border-radius: var(--r-card);
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  display: flex;
+}
+.info-steps li:before {
+  counter-increment: s;
+  content: counter(s, decimal-leading-zero);
+  color: var(--primary);
+  font-variant-numeric: tabular-nums;
+  flex: none;
+  font-weight: 800;
+}
+.info-note {
+  margin-top: var(--gap-6);
+  border-left: 2px solid var(--line-strong);
+  color: var(--ink-3);
+  font-size: var(--fs-sm);
+  padding: 14px 16px;
+  line-height: 1.8;
+}
+@media (max-width: 900px) {
+  .info {
+    gap: var(--gap-6);
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .info-toc {
+    position: static;
+  }
+  .info-toc ul {
+    scrollbar-width: none;
+    padding: 0 var(--page-pad);
+    margin: 0 calc(-1 * var(--page-pad));
+    gap: 6px;
+    display: flex;
+    overflow-x: auto;
+  }
+  .info-toc ul::-webkit-scrollbar {
+    display: none;
+  }
+  .info-toc a {
+    white-space: nowrap;
+    background: var(--surface);
+    align-items: center;
+    min-height: 44px;
+    margin: 0;
+    display: flex;
+  }
+}
+.info-link {
+  color: var(--primary);
+  text-underline-offset: 3px;
+  font-weight: 600;
+  text-decoration: underline;
+}

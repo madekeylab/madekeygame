@@ -1,0 +1,108 @@
+.slot-band,
+.slot-band + .shop-main,
+.slot-band + .info,
+.slot-band + .lg {
+  padding-top: var(--gap-5);
+}
+.gband {
+  align-items: center;
+  gap: var(--gap-3) var(--gap-5);
+  padding: 10px var(--gap-4);
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  background:
+    linear-gradient(
+      100deg,
+      color-mix(in srgb, var(--wash-1) 62%, transparent) 0%,
+      color-mix(in srgb, var(--wash-3) 52%, transparent) 58%,
+      color-mix(in srgb, var(--wash-2) 46%, transparent) 100%
+    ),
+    var(--surface);
+  flex-wrap: wrap;
+  display: flex;
+}
+.gband-list {
+  align-items: center;
+  gap: 4px var(--gap-4);
+  flex-wrap: wrap;
+  flex: auto;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.gband-list li {
+  align-items: center;
+  gap: 7px;
+  min-width: 0;
+  display: flex;
+}
+.gband-list li + li:before {
+  content: "";
+  width: 1px;
+  height: 12px;
+  margin-right: calc(var(--gap-4) - 7px);
+  background: var(--line-2);
+  flex: none;
+}
+.gband-list b {
+  font-size: var(--fs-sm);
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  white-space: nowrap;
+  font-weight: 700;
+}
+.gband-list span {
+  font-size: var(--fs-xs);
+  color: var(--ink-3);
+  min-width: 0;
+}
+.gband-more {
+  border-radius: var(--r-full);
+  height: 30px;
+  font-size: var(--fs-xs);
+  white-space: nowrap;
+  background: var(--accent);
+  color: var(--accent-ink);
+  transition: background var(--dur) var(--ease);
+  flex: none;
+  align-items: center;
+  padding: 0 13px;
+  font-weight: 700;
+  display: inline-flex;
+}
+.gband-more:hover {
+  background: var(--accent-hover);
+}
+@media (max-width: 760px) {
+  .slot-band {
+    padding-top: var(--gap-3);
+  }
+  .gband {
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: 7px 10px;
+  }
+  .gband-list {
+    flex-wrap: nowrap;
+    gap: 0;
+  }
+  .gband-list span {
+    display: none;
+  }
+  .gband-list b {
+    font-size: var(--fs-xs);
+    text-overflow: ellipsis;
+    min-width: 0;
+    overflow: hidden;
+  }
+  .gband-list li + li {
+    display: none;
+  }
+  .gband-more {
+    height: 36px;
+    font-size: var(--fs-tiny);
+    padding: 0 13px;
+  }
+}

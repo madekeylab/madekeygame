@@ -1,0 +1,5528 @@
+[
+ {
+  "id": 8,
+  "sku": "KLACK-DEMO-CB-65AL",
+  "name": "KLACK 65 알루미늄 완성형",
+  "summary": "6063 알루미늄 하우징에 공방 윤활·타건 검수까지 마친 65% 완성형",
+  "maker": {
+   "id": 1,
+   "slug": "klack-built",
+   "nameKo": "클랙 빌트"
+  },
+  "series": null,
+  "categorySlug": "custom-built",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 420000,
+  "salePrice": 389000,
+  "discountRate": 7,
+  "thumbUrl": "/uploads/2026/10/2026107b8396ed1c13a707fe-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 20,
+  "isCustom": true,
+  "optionGroups": 9,
+  "specLine": "65% · 알루미늄 · 가스켓",
+  "groups": [
+   {
+    "id": 29,
+    "name": "배열",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 103,
+      "label": "65% 배열",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 104,
+      "label": "75% 배열",
+      "extraPrice": 20000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 105,
+      "label": "TKL(텐키리스)",
+      "extraPrice": 40000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 30,
+    "name": "하우징 색상",
+    "kind": "swatch",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 106,
+      "label": "블랙",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#1F1F1F",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 107,
+      "label": "실버",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#C0C0C0",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 108,
+      "label": "화이트",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#F2F2F2",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 109,
+      "label": "네이비",
+      "extraPrice": 10000,
+      "stock": null,
+      "swatchHex": "#1F2A44",
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 31,
+    "name": "보강판 소재",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 110,
+      "label": "알루미늄",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 111,
+      "label": "PC(폴리카보네이트)",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 112,
+      "label": "FR4",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 113,
+      "label": "황동",
+      "extraPrice": 30000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 32,
+    "name": "스위치 타입",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 114,
+      "label": "리니어",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 115,
+      "label": "택타일",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 116,
+      "label": "클릭",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 117,
+      "label": "스위치 미포함",
+      "extraPrice": -30000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 33,
+    "name": "스위치 윤활",
+    "kind": "check",
+    "required": false,
+    "maxSelect": 1,
+    "help": "스위치를 고른 경우에만 선택할 수 있습니다.",
+    "dependsOnGroupId": 32,
+    "dependsOnValueIds": [
+     114,
+     115,
+     116
+    ],
+    "values": [
+     {
+      "id": 118,
+      "label": "공방 윤활 추가",
+      "extraPrice": 30000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 34,
+    "name": "스태빌 튜닝",
+    "kind": "check",
+    "required": false,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 119,
+      "label": "스태빌 튜닝 추가",
+      "extraPrice": 10000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 35,
+    "name": "흡음재",
+    "kind": "radio",
+    "required": false,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 120,
+      "label": "없음",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 121,
+      "label": "기본",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 122,
+      "label": "풀흡음",
+      "extraPrice": 15000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 36,
+    "name": "키캡",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 123,
+      "label": "미포함",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 124,
+      "label": "PBT 기본 키셋",
+      "extraPrice": 40000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 125,
+      "label": "PBT 기본 키셋 + 노벨티",
+      "extraPrice": 55000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 37,
+    "name": "각인 문구",
+    "kind": "text",
+    "required": false,
+    "maxSelect": 1,
+    "help": "하우징 하단 각인 — 영문·숫자 기준, 공방에서 가능 여부를 확인합니다.",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": []
+   }
+  ],
+  "sheet": [
+   [
+    "배열",
+    "65%"
+   ],
+   [
+    "하우징",
+    "알루미늄"
+   ],
+   [
+    "마운트",
+    "가스켓"
+   ],
+   [
+    "품질보증",
+    "1년(12개월)"
+   ],
+   [
+    "납기",
+    "주문 후 10일 · 주문 제작"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "주문 받는 중",
+   "제작 10일",
+   "옵션 9단계"
+  ],
+  "categoryLabel": "완성형 커스텀",
+  "tags": [
+   "완성형 커스텀",
+   "주문 제작"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "65% · 알루미늄 · 가스켓 KLACK 65 알루미늄 완성형"
+  }
+ },
+ {
+  "id": 9,
+  "sku": "KLACK-DEMO-CB-75GK",
+  "name": "KLACK 75 가스켓 완성형",
+  "summary": "노브와 기능열이 있는 75% 배열, 부드러운 가스켓 타건감",
+  "maker": {
+   "id": 1,
+   "slug": "klack-built",
+   "nameKo": "클랙 빌트"
+  },
+  "series": null,
+  "categorySlug": "custom-built",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 480000,
+  "salePrice": 449000,
+  "discountRate": 6,
+  "thumbUrl": "/uploads/2026/10/202610994a47e958a08bd705-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 20,
+  "isCustom": true,
+  "optionGroups": 9,
+  "specLine": "75% · 알루미늄 · 가스켓",
+  "groups": [
+   {
+    "id": 38,
+    "name": "배열",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 126,
+      "label": "65% 배열",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 127,
+      "label": "75% 배열",
+      "extraPrice": 20000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 128,
+      "label": "TKL(텐키리스)",
+      "extraPrice": 40000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 39,
+    "name": "하우징 색상",
+    "kind": "swatch",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 129,
+      "label": "블랙",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#1F1F1F",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 130,
+      "label": "실버",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#C0C0C0",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 131,
+      "label": "화이트",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#F2F2F2",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 132,
+      "label": "네이비",
+      "extraPrice": 10000,
+      "stock": null,
+      "swatchHex": "#1F2A44",
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 40,
+    "name": "보강판 소재",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 133,
+      "label": "알루미늄",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 134,
+      "label": "PC(폴리카보네이트)",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 135,
+      "label": "FR4",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 136,
+      "label": "황동",
+      "extraPrice": 30000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 41,
+    "name": "스위치 타입",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 137,
+      "label": "리니어",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 138,
+      "label": "택타일",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 139,
+      "label": "클릭",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 140,
+      "label": "스위치 미포함",
+      "extraPrice": -30000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 42,
+    "name": "스위치 윤활",
+    "kind": "check",
+    "required": false,
+    "maxSelect": 1,
+    "help": "스위치를 고른 경우에만 선택할 수 있습니다.",
+    "dependsOnGroupId": 41,
+    "dependsOnValueIds": [
+     137,
+     138,
+     139
+    ],
+    "values": [
+     {
+      "id": 141,
+      "label": "공방 윤활 추가",
+      "extraPrice": 30000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 43,
+    "name": "스태빌 튜닝",
+    "kind": "check",
+    "required": false,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 142,
+      "label": "스태빌 튜닝 추가",
+      "extraPrice": 10000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 44,
+    "name": "흡음재",
+    "kind": "radio",
+    "required": false,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 143,
+      "label": "없음",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 144,
+      "label": "기본",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 145,
+      "label": "풀흡음",
+      "extraPrice": 15000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 45,
+    "name": "키캡",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 146,
+      "label": "미포함",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 147,
+      "label": "PBT 기본 키셋",
+      "extraPrice": 40000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 148,
+      "label": "PBT 기본 키셋 + 노벨티",
+      "extraPrice": 55000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 46,
+    "name": "각인 문구",
+    "kind": "text",
+    "required": false,
+    "maxSelect": 1,
+    "help": "하우징 하단 각인 — 영문·숫자 기준, 공방에서 가능 여부를 확인합니다.",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": []
+   }
+  ],
+  "sheet": [
+   [
+    "배열",
+    "75%"
+   ],
+   [
+    "하우징",
+    "알루미늄"
+   ],
+   [
+    "마운트",
+    "가스켓"
+   ],
+   [
+    "품질보증",
+    "1년(12개월)"
+   ],
+   [
+    "납기",
+    "주문 후 10일 · 주문 제작"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "주문 받는 중",
+   "제작 10일",
+   "옵션 9단계"
+  ],
+  "categoryLabel": "완성형 커스텀",
+  "tags": [
+   "완성형 커스텀",
+   "주문 제작"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "75% · 알루미늄 · 가스켓 KLACK 75 가스켓 완성형"
+  }
+ },
+ {
+  "id": 10,
+  "sku": "KLACK-DEMO-CB-TKLW",
+  "name": "KLACK TKL 우드 프레임 완성형",
+  "summary": "원목 프레임과 황동 보강판으로 묵직하게 울리는 텐키리스",
+  "maker": {
+   "id": 1,
+   "slug": "klack-built",
+   "nameKo": "클랙 빌트"
+  },
+  "series": null,
+  "categorySlug": "custom-built",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 560000,
+  "salePrice": 529000,
+  "discountRate": 6,
+  "thumbUrl": "/uploads/2026/10/20261047a6aad794dacccdd0-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 20,
+  "isCustom": true,
+  "optionGroups": 9,
+  "specLine": "TKL · 원목+알루미늄 · 황동",
+  "groups": [
+   {
+    "id": 47,
+    "name": "배열",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 149,
+      "label": "65% 배열",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 150,
+      "label": "75% 배열",
+      "extraPrice": 20000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 151,
+      "label": "TKL(텐키리스)",
+      "extraPrice": 40000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 48,
+    "name": "하우징 색상",
+    "kind": "swatch",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 152,
+      "label": "블랙",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#1F1F1F",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 153,
+      "label": "실버",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#C0C0C0",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 154,
+      "label": "화이트",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#F2F2F2",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 155,
+      "label": "네이비",
+      "extraPrice": 10000,
+      "stock": null,
+      "swatchHex": "#1F2A44",
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 49,
+    "name": "보강판 소재",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 156,
+      "label": "알루미늄",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 157,
+      "label": "PC(폴리카보네이트)",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 158,
+      "label": "FR4",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 159,
+      "label": "황동",
+      "extraPrice": 30000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 50,
+    "name": "스위치 타입",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 160,
+      "label": "리니어",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 161,
+      "label": "택타일",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 162,
+      "label": "클릭",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 163,
+      "label": "스위치 미포함",
+      "extraPrice": -30000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 51,
+    "name": "스위치 윤활",
+    "kind": "check",
+    "required": false,
+    "maxSelect": 1,
+    "help": "스위치를 고른 경우에만 선택할 수 있습니다.",
+    "dependsOnGroupId": 50,
+    "dependsOnValueIds": [
+     160,
+     161,
+     162
+    ],
+    "values": [
+     {
+      "id": 164,
+      "label": "공방 윤활 추가",
+      "extraPrice": 30000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 52,
+    "name": "스태빌 튜닝",
+    "kind": "check",
+    "required": false,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 165,
+      "label": "스태빌 튜닝 추가",
+      "extraPrice": 10000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 53,
+    "name": "흡음재",
+    "kind": "radio",
+    "required": false,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 166,
+      "label": "없음",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 167,
+      "label": "기본",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 168,
+      "label": "풀흡음",
+      "extraPrice": 15000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 54,
+    "name": "키캡",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 169,
+      "label": "미포함",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 170,
+      "label": "PBT 기본 키셋",
+      "extraPrice": 40000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 171,
+      "label": "PBT 기본 키셋 + 노벨티",
+      "extraPrice": 55000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 55,
+    "name": "각인 문구",
+    "kind": "text",
+    "required": false,
+    "maxSelect": 1,
+    "help": "하우징 하단 각인 — 영문·숫자 기준, 공방에서 가능 여부를 확인합니다.",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": []
+   }
+  ],
+  "sheet": [
+   [
+    "배열",
+    "TKL"
+   ],
+   [
+    "하우징",
+    "원목+알루미늄"
+   ],
+   [
+    "보강판",
+    "황동"
+   ],
+   [
+    "품질보증",
+    "1년(12개월)"
+   ],
+   [
+    "납기",
+    "주문 후 14일 · 주문 제작"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "주문 받는 중",
+   "제작 14일",
+   "옵션 9단계"
+  ],
+  "categoryLabel": "완성형 커스텀",
+  "tags": [
+   "완성형 커스텀",
+   "주문 제작"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "TKL · 원목+알루미늄 · 황동 KLACK TKL 우드 프레임 완성형"
+  }
+ },
+ {
+  "id": 11,
+  "sku": "KLACK-DEMO-CB-60MN",
+  "name": "KLACK 60 미니 완성형",
+  "summary": "가볍게 들고 다니는 60% 배열, 폴리카보네이트 하우징",
+  "maker": {
+   "id": 1,
+   "slug": "klack-built",
+   "nameKo": "클랙 빌트"
+  },
+  "series": null,
+  "categorySlug": "custom-built",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 340000,
+  "salePrice": 319000,
+  "discountRate": 6,
+  "thumbUrl": "/uploads/2026/10/20261044a369be30e779778a-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 20,
+  "isCustom": true,
+  "optionGroups": 9,
+  "specLine": "60% · PC · 트레이",
+  "groups": [
+   {
+    "id": 56,
+    "name": "배열",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 172,
+      "label": "65% 배열",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 173,
+      "label": "75% 배열",
+      "extraPrice": 20000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 174,
+      "label": "TKL(텐키리스)",
+      "extraPrice": 40000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 57,
+    "name": "하우징 색상",
+    "kind": "swatch",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 175,
+      "label": "블랙",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#1F1F1F",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 176,
+      "label": "실버",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#C0C0C0",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 177,
+      "label": "화이트",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#F2F2F2",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 178,
+      "label": "네이비",
+      "extraPrice": 10000,
+      "stock": null,
+      "swatchHex": "#1F2A44",
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 58,
+    "name": "보강판 소재",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 179,
+      "label": "알루미늄",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 180,
+      "label": "PC(폴리카보네이트)",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 181,
+      "label": "FR4",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 182,
+      "label": "황동",
+      "extraPrice": 30000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 59,
+    "name": "스위치 타입",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 183,
+      "label": "리니어",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 184,
+      "label": "택타일",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 185,
+      "label": "클릭",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 186,
+      "label": "스위치 미포함",
+      "extraPrice": -30000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 60,
+    "name": "스위치 윤활",
+    "kind": "check",
+    "required": false,
+    "maxSelect": 1,
+    "help": "스위치를 고른 경우에만 선택할 수 있습니다.",
+    "dependsOnGroupId": 59,
+    "dependsOnValueIds": [
+     183,
+     184,
+     185
+    ],
+    "values": [
+     {
+      "id": 187,
+      "label": "공방 윤활 추가",
+      "extraPrice": 30000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 61,
+    "name": "스태빌 튜닝",
+    "kind": "check",
+    "required": false,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 188,
+      "label": "스태빌 튜닝 추가",
+      "extraPrice": 10000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 62,
+    "name": "흡음재",
+    "kind": "radio",
+    "required": false,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 189,
+      "label": "없음",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 190,
+      "label": "기본",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 191,
+      "label": "풀흡음",
+      "extraPrice": 15000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 63,
+    "name": "키캡",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 192,
+      "label": "미포함",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 193,
+      "label": "PBT 기본 키셋",
+      "extraPrice": 40000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 194,
+      "label": "PBT 기본 키셋 + 노벨티",
+      "extraPrice": 55000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 64,
+    "name": "각인 문구",
+    "kind": "text",
+    "required": false,
+    "maxSelect": 1,
+    "help": "하우징 하단 각인 — 영문·숫자 기준, 공방에서 가능 여부를 확인합니다.",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": []
+   }
+  ],
+  "sheet": [
+   [
+    "배열",
+    "60%"
+   ],
+   [
+    "하우징",
+    "PC"
+   ],
+   [
+    "마운트",
+    "트레이"
+   ],
+   [
+    "품질보증",
+    "1년(12개월)"
+   ],
+   [
+    "납기",
+    "주문 후 7일 · 주문 제작"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "주문 받는 중",
+   "제작 7일",
+   "옵션 9단계"
+  ],
+  "categoryLabel": "완성형 커스텀",
+  "tags": [
+   "완성형 커스텀",
+   "주문 제작"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "60% · PC · 트레이 KLACK 60 미니 완성형"
+  }
+ },
+ {
+  "id": 12,
+  "sku": "KLACK-DEMO-KT-65AL",
+  "name": "K65 알루미늄 베어본 키트",
+  "summary": "하우징·PCB·보강판 구성. 스위치와 키캡은 취향대로 고르세요",
+  "maker": {
+   "id": 2,
+   "slug": "klack-kit",
+   "nameKo": "클랙 키트"
+  },
+  "series": null,
+  "categorySlug": "kit",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 259000,
+  "salePrice": 239000,
+  "discountRate": 8,
+  "thumbUrl": "/uploads/2026/10/2026108b45627b6388306673-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 20,
+  "isCustom": true,
+  "optionGroups": 6,
+  "specLine": "65% · 핫스왑 · 하우징+PCB+보강판",
+  "groups": [
+   {
+    "id": 65,
+    "name": "하우징 색상",
+    "kind": "swatch",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 195,
+      "label": "블랙",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#1F1F1F",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 196,
+      "label": "실버",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#C0C0C0",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 197,
+      "label": "화이트",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#F2F2F2",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 198,
+      "label": "네이비",
+      "extraPrice": 10000,
+      "stock": null,
+      "swatchHex": "#1F2A44",
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 66,
+    "name": "보강판",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 199,
+      "label": "알루미늄",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 200,
+      "label": "PC(폴리카보네이트)",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 201,
+      "label": "FR4",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 202,
+      "label": "황동",
+      "extraPrice": 30000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 67,
+    "name": "PCB",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 203,
+      "label": "핫스왑",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 204,
+      "label": "솔더",
+      "extraPrice": -10000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 68,
+    "name": "스태빌 포함 여부",
+    "kind": "radio",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 205,
+      "label": "미포함",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 206,
+      "label": "기본 스태빌 포함",
+      "extraPrice": 15000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 69,
+    "name": "스태빌 튜닝",
+    "kind": "check",
+    "required": false,
+    "maxSelect": 1,
+    "help": "스태빌을 포함한 경우에만 선택할 수 있습니다.",
+    "dependsOnGroupId": 68,
+    "dependsOnValueIds": [
+     206
+    ],
+    "values": [
+     {
+      "id": 207,
+      "label": "스태빌 튜닝 추가",
+      "extraPrice": 10000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 70,
+    "name": "흡음재",
+    "kind": "radio",
+    "required": false,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 208,
+      "label": "없음",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 209,
+      "label": "기본",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 210,
+      "label": "풀흡음",
+      "extraPrice": 15000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   }
+  ],
+  "sheet": [
+   [
+    "배열",
+    "65%"
+   ],
+   [
+    "PCB",
+    "핫스왑"
+   ],
+   [
+    "구성",
+    "하우징+PCB+보강판"
+   ],
+   [
+    "품질보증",
+    "1년(12개월)"
+   ],
+   [
+    "납기",
+    "주문 후 3일 · 주문 제작"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "주문 받는 중",
+   "제작 3일",
+   "옵션 6단계"
+  ],
+  "categoryLabel": "베어본 · 하우징 키트",
+  "tags": [
+   "베어본 · 하우징 키트",
+   "주문 제작"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "65% · 핫스왑 · 하우징+PCB+보강판 K65 알루미늄 베어본 키트"
+  }
+ },
+ {
+  "id": 13,
+  "sku": "KLACK-DEMO-KT-75GK",
+  "name": "K75 가스켓 베어본 키트",
+  "summary": "가스켓 마운트 75% 키트, 흡음재 기본 포함",
+  "maker": {
+   "id": 2,
+   "slug": "klack-kit",
+   "nameKo": "클랙 키트"
+  },
+  "series": null,
+  "categorySlug": "kit",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 299000,
+  "salePrice": 279000,
+  "discountRate": 7,
+  "thumbUrl": "/uploads/2026/10/202610945af67f08013959dc-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 20,
+  "isCustom": true,
+  "optionGroups": 6,
+  "specLine": "75% · 핫스왑 · 가스켓",
+  "groups": [
+   {
+    "id": 71,
+    "name": "하우징 색상",
+    "kind": "swatch",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 211,
+      "label": "블랙",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#1F1F1F",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 212,
+      "label": "실버",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#C0C0C0",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 213,
+      "label": "화이트",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#F2F2F2",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 214,
+      "label": "네이비",
+      "extraPrice": 10000,
+      "stock": null,
+      "swatchHex": "#1F2A44",
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 72,
+    "name": "보강판",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 215,
+      "label": "알루미늄",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 216,
+      "label": "PC(폴리카보네이트)",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 217,
+      "label": "FR4",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 218,
+      "label": "황동",
+      "extraPrice": 30000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 73,
+    "name": "PCB",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 219,
+      "label": "핫스왑",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 220,
+      "label": "솔더",
+      "extraPrice": -10000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 74,
+    "name": "스태빌 포함 여부",
+    "kind": "radio",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 221,
+      "label": "미포함",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 222,
+      "label": "기본 스태빌 포함",
+      "extraPrice": 15000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 75,
+    "name": "스태빌 튜닝",
+    "kind": "check",
+    "required": false,
+    "maxSelect": 1,
+    "help": "스태빌을 포함한 경우에만 선택할 수 있습니다.",
+    "dependsOnGroupId": 74,
+    "dependsOnValueIds": [
+     222
+    ],
+    "values": [
+     {
+      "id": 223,
+      "label": "스태빌 튜닝 추가",
+      "extraPrice": 10000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 76,
+    "name": "흡음재",
+    "kind": "radio",
+    "required": false,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 224,
+      "label": "없음",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 225,
+      "label": "기본",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 226,
+      "label": "풀흡음",
+      "extraPrice": 15000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   }
+  ],
+  "sheet": [
+   [
+    "배열",
+    "75%"
+   ],
+   [
+    "PCB",
+    "핫스왑"
+   ],
+   [
+    "마운트",
+    "가스켓"
+   ],
+   [
+    "품질보증",
+    "1년(12개월)"
+   ],
+   [
+    "납기",
+    "주문 후 3일 · 주문 제작"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "주문 받는 중",
+   "제작 3일",
+   "옵션 6단계"
+  ],
+  "categoryLabel": "베어본 · 하우징 키트",
+  "tags": [
+   "베어본 · 하우징 키트",
+   "주문 제작"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "75% · 핫스왑 · 가스켓 K75 가스켓 베어본 키트"
+  }
+ },
+ {
+  "id": 14,
+  "sku": "KLACK-DEMO-KT-60PC",
+  "name": "K60 폴리카보네이트 베어본 키트",
+  "summary": "빛이 은은하게 비치는 반투명 PC 하우징 60% 키트",
+  "maker": {
+   "id": 2,
+   "slug": "klack-kit",
+   "nameKo": "클랙 키트"
+  },
+  "series": null,
+  "categorySlug": "kit",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 179000,
+  "salePrice": 169000,
+  "discountRate": 6,
+  "thumbUrl": "/uploads/2026/10/202610d89032f166743fb564-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 20,
+  "isCustom": true,
+  "optionGroups": 6,
+  "specLine": "60% · 반투명 PC · 핫스왑",
+  "groups": [
+   {
+    "id": 77,
+    "name": "하우징 색상",
+    "kind": "swatch",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 227,
+      "label": "블랙",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#1F1F1F",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 228,
+      "label": "실버",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#C0C0C0",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 229,
+      "label": "화이트",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#F2F2F2",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 230,
+      "label": "네이비",
+      "extraPrice": 10000,
+      "stock": null,
+      "swatchHex": "#1F2A44",
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 78,
+    "name": "보강판",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 231,
+      "label": "알루미늄",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 232,
+      "label": "PC(폴리카보네이트)",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 233,
+      "label": "FR4",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 234,
+      "label": "황동",
+      "extraPrice": 30000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 79,
+    "name": "PCB",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 235,
+      "label": "핫스왑",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 236,
+      "label": "솔더",
+      "extraPrice": -10000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 80,
+    "name": "스태빌 포함 여부",
+    "kind": "radio",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 237,
+      "label": "미포함",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 238,
+      "label": "기본 스태빌 포함",
+      "extraPrice": 15000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 81,
+    "name": "스태빌 튜닝",
+    "kind": "check",
+    "required": false,
+    "maxSelect": 1,
+    "help": "스태빌을 포함한 경우에만 선택할 수 있습니다.",
+    "dependsOnGroupId": 80,
+    "dependsOnValueIds": [
+     238
+    ],
+    "values": [
+     {
+      "id": 239,
+      "label": "스태빌 튜닝 추가",
+      "extraPrice": 10000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 82,
+    "name": "흡음재",
+    "kind": "radio",
+    "required": false,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 240,
+      "label": "없음",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 241,
+      "label": "기본",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 242,
+      "label": "풀흡음",
+      "extraPrice": 15000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   }
+  ],
+  "sheet": [
+   [
+    "배열",
+    "60%"
+   ],
+   [
+    "하우징",
+    "반투명 PC"
+   ],
+   [
+    "PCB",
+    "핫스왑"
+   ],
+   [
+    "품질보증",
+    "1년(12개월)"
+   ],
+   [
+    "납기",
+    "주문 후 3일 · 주문 제작"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "주문 받는 중",
+   "제작 3일",
+   "옵션 6단계"
+  ],
+  "categoryLabel": "베어본 · 하우징 키트",
+  "tags": [
+   "베어본 · 하우징 키트",
+   "주문 제작"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "60% · 반투명 PC · 핫스왑 K60 폴리카보네이트 베어본 키트"
+  }
+ },
+ {
+  "id": 15,
+  "sku": "KLACK-DEMO-SW-CRL45",
+  "name": "크림 리니어 스위치 45g",
+  "summary": "걸림 없이 매끈하게 내려가는 가벼운 리니어",
+  "maker": {
+   "id": 3,
+   "slug": "klack-switch",
+   "nameKo": "클랙 스위치"
+  },
+  "series": null,
+  "categorySlug": "switch",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 42000,
+  "salePrice": 39000,
+  "discountRate": 7,
+  "thumbUrl": "/uploads/2026/10/202610b6bee8bba919d94d3d-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 20,
+  "isCustom": false,
+  "optionGroups": 2,
+  "specLine": "리니어 · 45g · 70개",
+  "groups": [
+   {
+    "id": 83,
+    "name": "수량",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 243,
+      "label": "70개",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 244,
+      "label": "90개",
+      "extraPrice": 8000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 245,
+      "label": "110개",
+      "extraPrice": 16000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 84,
+    "name": "공방 윤활",
+    "kind": "check",
+    "required": false,
+    "maxSelect": 1,
+    "help": "수량을 고른 뒤 선택할 수 있습니다. 수량이 많으면 공방 기준으로 금액을 조정하세요.",
+    "dependsOnGroupId": 83,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 246,
+      "label": "공방 윤활 추가",
+      "extraPrice": 25000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   }
+  ],
+  "sheet": [
+   [
+    "타입",
+    "리니어"
+   ],
+   [
+    "압력",
+    "45g"
+   ],
+   [
+    "단위",
+    "70개"
+   ],
+   [
+    "품질보증",
+    "1년(12개월)"
+   ],
+   [
+    "납기",
+    "재고 출고"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "재고 있음",
+   "제작 바로 출고",
+   "옵션 2단계"
+  ],
+  "categoryLabel": "스위치",
+  "tags": [
+   "스위치"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "리니어 · 45g · 70개 크림 리니어 스위치 45g"
+  }
+ },
+ {
+  "id": 16,
+  "sku": "KLACK-DEMO-SW-MBT62",
+  "name": "마블 택타일 스위치 62g",
+  "summary": "누르는 초입에 또렷한 구분감이 있는 택타일",
+  "maker": {
+   "id": 3,
+   "slug": "klack-switch",
+   "nameKo": "클랙 스위치"
+  },
+  "series": null,
+  "categorySlug": "switch",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 48000,
+  "salePrice": 45000,
+  "discountRate": 6,
+  "thumbUrl": "/uploads/2026/10/2026105e2cec96ef303d1d63-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 20,
+  "isCustom": false,
+  "optionGroups": 2,
+  "specLine": "택타일 · 62g · 70개",
+  "groups": [
+   {
+    "id": 85,
+    "name": "수량",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 247,
+      "label": "70개",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 248,
+      "label": "90개",
+      "extraPrice": 8000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 249,
+      "label": "110개",
+      "extraPrice": 16000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 86,
+    "name": "공방 윤활",
+    "kind": "check",
+    "required": false,
+    "maxSelect": 1,
+    "help": "수량을 고른 뒤 선택할 수 있습니다. 수량이 많으면 공방 기준으로 금액을 조정하세요.",
+    "dependsOnGroupId": 85,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 250,
+      "label": "공방 윤활 추가",
+      "extraPrice": 25000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   }
+  ],
+  "sheet": [
+   [
+    "타입",
+    "택타일"
+   ],
+   [
+    "압력",
+    "62g"
+   ],
+   [
+    "단위",
+    "70개"
+   ],
+   [
+    "품질보증",
+    "1년(12개월)"
+   ],
+   [
+    "납기",
+    "재고 출고"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "재고 있음",
+   "제작 바로 출고",
+   "옵션 2단계"
+  ],
+  "categoryLabel": "스위치",
+  "tags": [
+   "스위치"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "택타일 · 62g · 70개 마블 택타일 스위치 62g"
+  }
+ },
+ {
+  "id": 17,
+  "sku": "KLACK-DEMO-SW-CLK55",
+  "name": "클리어 클릭 스위치 55g",
+  "summary": "경쾌한 클릭음이 나는 클릭 스위치",
+  "maker": {
+   "id": 3,
+   "slug": "klack-switch",
+   "nameKo": "클랙 스위치"
+  },
+  "series": null,
+  "categorySlug": "switch",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 38000,
+  "salePrice": 35000,
+  "discountRate": 8,
+  "thumbUrl": "/uploads/2026/10/202610da213a330796423564-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 20,
+  "isCustom": false,
+  "optionGroups": 2,
+  "specLine": "클릭 · 55g · 70개",
+  "groups": [
+   {
+    "id": 87,
+    "name": "수량",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 251,
+      "label": "70개",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 252,
+      "label": "90개",
+      "extraPrice": 8000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 253,
+      "label": "110개",
+      "extraPrice": 16000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 88,
+    "name": "공방 윤활",
+    "kind": "check",
+    "required": false,
+    "maxSelect": 1,
+    "help": "수량을 고른 뒤 선택할 수 있습니다. 수량이 많으면 공방 기준으로 금액을 조정하세요.",
+    "dependsOnGroupId": 87,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 254,
+      "label": "공방 윤활 추가",
+      "extraPrice": 25000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   }
+  ],
+  "sheet": [
+   [
+    "타입",
+    "클릭"
+   ],
+   [
+    "압력",
+    "55g"
+   ],
+   [
+    "단위",
+    "70개"
+   ],
+   [
+    "품질보증",
+    "1년(12개월)"
+   ],
+   [
+    "납기",
+    "재고 출고"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "재고 있음",
+   "제작 바로 출고",
+   "옵션 2단계"
+  ],
+  "categoryLabel": "스위치",
+  "tags": [
+   "스위치"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "클릭 · 55g · 70개 클리어 클릭 스위치 55g"
+  }
+ },
+ {
+  "id": 18,
+  "sku": "KLACK-DEMO-SW-SLT40",
+  "name": "사일런트 리니어 스위치 40g",
+  "summary": "바닥·복귀 소리를 줄인 저소음 리니어",
+  "maker": {
+   "id": 3,
+   "slug": "klack-switch",
+   "nameKo": "클랙 스위치"
+  },
+  "series": null,
+  "categorySlug": "switch",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 52000,
+  "salePrice": 49000,
+  "discountRate": 6,
+  "thumbUrl": "/uploads/2026/10/2026100842205a89b93efb3b-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 20,
+  "isCustom": false,
+  "optionGroups": 2,
+  "specLine": "저소음 리니어 · 40g · 70개",
+  "groups": [
+   {
+    "id": 89,
+    "name": "수량",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 255,
+      "label": "70개",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 256,
+      "label": "90개",
+      "extraPrice": 8000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 257,
+      "label": "110개",
+      "extraPrice": 16000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 90,
+    "name": "공방 윤활",
+    "kind": "check",
+    "required": false,
+    "maxSelect": 1,
+    "help": "수량을 고른 뒤 선택할 수 있습니다. 수량이 많으면 공방 기준으로 금액을 조정하세요.",
+    "dependsOnGroupId": 89,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 258,
+      "label": "공방 윤활 추가",
+      "extraPrice": 25000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   }
+  ],
+  "sheet": [
+   [
+    "타입",
+    "저소음 리니어"
+   ],
+   [
+    "압력",
+    "40g"
+   ],
+   [
+    "단위",
+    "70개"
+   ],
+   [
+    "품질보증",
+    "1년(12개월)"
+   ],
+   [
+    "납기",
+    "재고 출고"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "재고 있음",
+   "제작 바로 출고",
+   "옵션 2단계"
+  ],
+  "categoryLabel": "스위치",
+  "tags": [
+   "스위치"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "저소음 리니어 · 40g · 70개 사일런트 리니어 스위치 40g"
+  }
+ },
+ {
+  "id": 19,
+  "sku": "KLACK-DEMO-KC-GRPT",
+  "name": "PBT 더블샷 키캡 — 그래파이트",
+  "summary": "어두운 그래파이트 톤의 두꺼운 PBT 더블샷 키캡",
+  "maker": {
+   "id": 4,
+   "slug": "klack-caps",
+   "nameKo": "클랙 캡스"
+  },
+  "series": null,
+  "categorySlug": "keycap",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 95000,
+  "salePrice": 89000,
+  "discountRate": 6,
+  "thumbUrl": "/uploads/2026/10/202610e908b68161332ab438-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 20,
+  "isCustom": false,
+  "optionGroups": 2,
+  "specLine": "PBT 더블샷 · 체리 · 140키",
+  "groups": [
+   {
+    "id": 91,
+    "name": "프로파일",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 259,
+      "label": "체리",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 260,
+      "label": "OEM",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 261,
+      "label": "XDA",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 262,
+      "label": "MDA",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 92,
+    "name": "구성",
+    "kind": "check",
+    "required": true,
+    "maxSelect": 3,
+    "help": "여러 개 고를 수 있습니다(최대 3).",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 263,
+      "label": "베이스 키트",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 264,
+      "label": "노벨티 키트",
+      "extraPrice": 15000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 265,
+      "label": "스페이스바 키트",
+      "extraPrice": 10000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   }
+  ],
+  "sheet": [
+   [
+    "소재",
+    "PBT 더블샷"
+   ],
+   [
+    "프로파일",
+    "체리"
+   ],
+   [
+    "키 수",
+    "140키"
+   ],
+   [
+    "품질보증",
+    "1년(12개월)"
+   ],
+   [
+    "납기",
+    "재고 출고"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "재고 있음",
+   "제작 바로 출고",
+   "옵션 2단계"
+  ],
+  "categoryLabel": "키캡",
+  "tags": [
+   "키캡"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "PBT 더블샷 · 체리 · 140키 PBT 더블샷 키캡 — 그래파이트"
+  }
+ },
+ {
+  "id": 20,
+  "sku": "KLACK-DEMO-KC-SGOR",
+  "name": "PBT 염료승화 키캡 — 시그널 오렌지",
+  "summary": "오렌지 포인트가 들어간 염료승화 PBT 키캡",
+  "maker": {
+   "id": 4,
+   "slug": "klack-caps",
+   "nameKo": "클랙 캡스"
+  },
+  "series": null,
+  "categorySlug": "keycap",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 85000,
+  "salePrice": 79000,
+  "discountRate": 7,
+  "thumbUrl": "/uploads/2026/10/202610a57379599909812624-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 20,
+  "isCustom": false,
+  "optionGroups": 2,
+  "specLine": "PBT 염료승화 · 체리 · 135키",
+  "groups": [
+   {
+    "id": 93,
+    "name": "프로파일",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 266,
+      "label": "체리",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 267,
+      "label": "OEM",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 268,
+      "label": "XDA",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 269,
+      "label": "MDA",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 94,
+    "name": "구성",
+    "kind": "check",
+    "required": true,
+    "maxSelect": 3,
+    "help": "여러 개 고를 수 있습니다(최대 3).",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 270,
+      "label": "베이스 키트",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 271,
+      "label": "노벨티 키트",
+      "extraPrice": 15000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 272,
+      "label": "스페이스바 키트",
+      "extraPrice": 10000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   }
+  ],
+  "sheet": [
+   [
+    "소재",
+    "PBT 염료승화"
+   ],
+   [
+    "프로파일",
+    "체리"
+   ],
+   [
+    "키 수",
+    "135키"
+   ],
+   [
+    "품질보증",
+    "1년(12개월)"
+   ],
+   [
+    "납기",
+    "재고 출고"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "재고 있음",
+   "제작 바로 출고",
+   "옵션 2단계"
+  ],
+  "categoryLabel": "키캡",
+  "tags": [
+   "키캡"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "PBT 염료승화 · 체리 · 135키 PBT 염료승화 키캡 — 시그널 오렌지"
+  }
+ },
+ {
+  "id": 21,
+  "sku": "KLACK-DEMO-KC-RTBG",
+  "name": "레트로 베이지 키캡",
+  "summary": "오래된 단말기 느낌의 베이지·그레이 조합",
+  "maker": {
+   "id": 4,
+   "slug": "klack-caps",
+   "nameKo": "클랙 캡스"
+  },
+  "series": null,
+  "categorySlug": "keycap",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 89000,
+  "salePrice": 85000,
+  "discountRate": 4,
+  "thumbUrl": "/uploads/2026/10/2026101f8e5795430d6f1e80-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 20,
+  "isCustom": false,
+  "optionGroups": 2,
+  "specLine": "PBT · 체리 · 150키",
+  "groups": [
+   {
+    "id": 95,
+    "name": "프로파일",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 273,
+      "label": "체리",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 274,
+      "label": "OEM",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 275,
+      "label": "XDA",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 276,
+      "label": "MDA",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 96,
+    "name": "구성",
+    "kind": "check",
+    "required": true,
+    "maxSelect": 3,
+    "help": "여러 개 고를 수 있습니다(최대 3).",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 277,
+      "label": "베이스 키트",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 278,
+      "label": "노벨티 키트",
+      "extraPrice": 15000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 279,
+      "label": "스페이스바 키트",
+      "extraPrice": 10000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   }
+  ],
+  "sheet": [
+   [
+    "소재",
+    "PBT"
+   ],
+   [
+    "프로파일",
+    "체리"
+   ],
+   [
+    "키 수",
+    "150키"
+   ],
+   [
+    "품질보증",
+    "1년(12개월)"
+   ],
+   [
+    "납기",
+    "재고 출고"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "재고 있음",
+   "제작 바로 출고",
+   "옵션 2단계"
+  ],
+  "categoryLabel": "키캡",
+  "tags": [
+   "키캡"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "PBT · 체리 · 150키 레트로 베이지 키캡"
+  }
+ },
+ {
+  "id": 22,
+  "sku": "KLACK-DEMO-PT-65BR",
+  "name": "65% 황동 보강판",
+  "summary": "묵직하고 또렷한 타건음을 내는 황동 보강판",
+  "maker": {
+   "id": 5,
+   "slug": "klack-parts",
+   "nameKo": "클랙 파츠"
+  },
+  "series": null,
+  "categorySlug": "parts",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 75000,
+  "salePrice": 69000,
+  "discountRate": 8,
+  "thumbUrl": "/uploads/2026/10/2026108510f6299de4334274-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 20,
+  "isCustom": false,
+  "optionGroups": 2,
+  "specLine": "65% · 황동 · 1.5mm",
+  "groups": [
+   {
+    "id": 97,
+    "name": "호환 배열",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 280,
+      "label": "65% 배열",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 281,
+      "label": "75% 배열",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 282,
+      "label": "TKL(텐키리스)",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 98,
+    "name": "소재/규격",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 283,
+      "label": "알루미늄",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 284,
+      "label": "PC(폴리카보네이트)",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 285,
+      "label": "FR4",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 286,
+      "label": "황동",
+      "extraPrice": 30000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   }
+  ],
+  "sheet": [
+   [
+    "배열",
+    "65%"
+   ],
+   [
+    "소재",
+    "황동"
+   ],
+   [
+    "두께",
+    "1.5mm"
+   ],
+   [
+    "품질보증",
+    "1년(12개월)"
+   ],
+   [
+    "납기",
+    "재고 출고"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "재고 있음",
+   "제작 바로 출고",
+   "옵션 2단계"
+  ],
+  "categoryLabel": "보강판 · PCB · 스태빌",
+  "tags": [
+   "보강판 · PCB · 스태빌"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "65% · 황동 · 1.5mm 65% 황동 보강판"
+  }
+ },
+ {
+  "id": 23,
+  "sku": "KLACK-DEMO-PT-75PC",
+  "name": "75% 폴리카보네이트 보강판",
+  "summary": "부드럽고 낮은 소리를 내는 PC 보강판",
+  "maker": {
+   "id": 5,
+   "slug": "klack-parts",
+   "nameKo": "클랙 파츠"
+  },
+  "series": null,
+  "categorySlug": "parts",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 32000,
+  "salePrice": 29000,
+  "discountRate": 9,
+  "thumbUrl": "/uploads/2026/10/20261021f2788d2357b0131f-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 20,
+  "isCustom": false,
+  "optionGroups": 2,
+  "specLine": "75% · PC · 1.5mm",
+  "groups": [
+   {
+    "id": 99,
+    "name": "호환 배열",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 287,
+      "label": "65% 배열",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 288,
+      "label": "75% 배열",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 289,
+      "label": "TKL(텐키리스)",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 100,
+    "name": "소재/규격",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 290,
+      "label": "알루미늄",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 291,
+      "label": "PC(폴리카보네이트)",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 292,
+      "label": "FR4",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 293,
+      "label": "황동",
+      "extraPrice": 30000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   }
+  ],
+  "sheet": [
+   [
+    "배열",
+    "75%"
+   ],
+   [
+    "소재",
+    "PC"
+   ],
+   [
+    "두께",
+    "1.5mm"
+   ],
+   [
+    "품질보증",
+    "1년(12개월)"
+   ],
+   [
+    "납기",
+    "재고 출고"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "재고 있음",
+   "제작 바로 출고",
+   "옵션 2단계"
+  ],
+  "categoryLabel": "보강판 · PCB · 스태빌",
+  "tags": [
+   "보강판 · PCB · 스태빌"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "75% · PC · 1.5mm 75% 폴리카보네이트 보강판"
+  }
+ },
+ {
+  "id": 24,
+  "sku": "KLACK-DEMO-PT-STAB",
+  "name": "스크류인 스태빌라이저 세트",
+  "summary": "덜걱임을 줄인 스크류인 스태빌, 윤활 서비스 선택 가능",
+  "maker": {
+   "id": 5,
+   "slug": "klack-parts",
+   "nameKo": "클랙 파츠"
+  },
+  "series": null,
+  "categorySlug": "parts",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 27000,
+  "salePrice": 25000,
+  "discountRate": 7,
+  "thumbUrl": "/uploads/2026/10/2026107662456cf47ea8ec2c-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 20,
+  "isCustom": false,
+  "optionGroups": 2,
+  "specLine": "스크류인 · 2u×4 · 6.25u×1",
+  "groups": [
+   {
+    "id": 101,
+    "name": "호환 배열",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 294,
+      "label": "65% 배열",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 295,
+      "label": "75% 배열",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 296,
+      "label": "TKL(텐키리스)",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 102,
+    "name": "소재/규격",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 297,
+      "label": "알루미늄",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 298,
+      "label": "PC(폴리카보네이트)",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 299,
+      "label": "FR4",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 300,
+      "label": "황동",
+      "extraPrice": 30000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   }
+  ],
+  "sheet": [
+   [
+    "방식",
+    "스크류인"
+   ],
+   [
+    "구성",
+    "2u×4 · 6.25u×1"
+   ],
+   [
+    "호환",
+    "PCB 마운트"
+   ],
+   [
+    "품질보증",
+    "1년(12개월)"
+   ],
+   [
+    "납기",
+    "재고 출고"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "재고 있음",
+   "제작 바로 출고",
+   "옵션 2단계"
+  ],
+  "categoryLabel": "보강판 · PCB · 스태빌",
+  "tags": [
+   "보강판 · PCB · 스태빌"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "스크류인 · 2u×4 · 6.25u×1 스크류인 스태빌라이저 세트"
+  }
+ },
+ {
+  "id": 25,
+  "sku": "KLACK-DEMO-PT-65HS",
+  "name": "65% 핫스왑 PCB",
+  "summary": "납땜 없이 스위치를 바꿔 끼우는 65% 핫스왑 PCB",
+  "maker": {
+   "id": 5,
+   "slug": "klack-parts",
+   "nameKo": "클랙 파츠"
+  },
+  "series": null,
+  "categorySlug": "parts",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 64000,
+  "salePrice": 59000,
+  "discountRate": 8,
+  "thumbUrl": "/uploads/2026/10/202610d80911c263ab1914af-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 20,
+  "isCustom": false,
+  "optionGroups": 2,
+  "specLine": "65% · 핫스왑 · USB-C",
+  "groups": [
+   {
+    "id": 103,
+    "name": "호환 배열",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 301,
+      "label": "65% 배열",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 302,
+      "label": "75% 배열",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 303,
+      "label": "TKL(텐키리스)",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 104,
+    "name": "소재/규격",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 304,
+      "label": "알루미늄",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 305,
+      "label": "PC(폴리카보네이트)",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 306,
+      "label": "FR4",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 307,
+      "label": "황동",
+      "extraPrice": 30000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   }
+  ],
+  "sheet": [
+   [
+    "배열",
+    "65%"
+   ],
+   [
+    "방식",
+    "핫스왑"
+   ],
+   [
+    "연결",
+    "USB-C"
+   ],
+   [
+    "품질보증",
+    "1년(12개월)"
+   ],
+   [
+    "납기",
+    "재고 출고"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "재고 있음",
+   "제작 바로 출고",
+   "옵션 2단계"
+  ],
+  "categoryLabel": "보강판 · PCB · 스태빌",
+  "tags": [
+   "보강판 · PCB · 스태빌"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "65% · 핫스왑 · USB-C 65% 핫스왑 PCB"
+  }
+ },
+ {
+  "id": 26,
+  "sku": "KLACK-DEMO-AC-COIL",
+  "name": "코일 케이블 USB-C",
+  "summary": "항공 커넥터가 달린 코일 케이블",
+  "maker": {
+   "id": 6,
+   "slug": "klack-desk",
+   "nameKo": "클랙 데스크"
+  },
+  "series": null,
+  "categorySlug": "accessory",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 42000,
+  "salePrice": 39000,
+  "discountRate": 7,
+  "thumbUrl": "/uploads/2026/10/20261051c3b91bf2f280c839-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 20,
+  "isCustom": false,
+  "optionGroups": 3,
+  "specLine": "USB-C · 1.5m · 코일+항공",
+  "groups": [
+   {
+    "id": 105,
+    "name": "커넥터",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 308,
+      "label": "USB-C ↔ USB-C",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 309,
+      "label": "USB-C ↔ USB-A",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 106,
+    "name": "길이",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 310,
+      "label": "1.2m",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 311,
+      "label": "1.5m",
+      "extraPrice": 3000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 312,
+      "label": "1.8m",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 107,
+    "name": "색상",
+    "kind": "swatch",
+    "required": false,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 313,
+      "label": "블랙",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#1F1F1F",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 314,
+      "label": "화이트",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#F2F2F2",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 315,
+      "label": "네이비",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#1F2A44",
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   }
+  ],
+  "sheet": [
+   [
+    "커넥터",
+    "USB-C"
+   ],
+   [
+    "길이",
+    "1.5m"
+   ],
+   [
+    "방식",
+    "코일+항공"
+   ],
+   [
+    "품질보증",
+    "1년(12개월)"
+   ],
+   [
+    "납기",
+    "재고 출고"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "재고 있음",
+   "제작 바로 출고",
+   "옵션 3단계"
+  ],
+  "categoryLabel": "액세서리",
+  "tags": [
+   "액세서리"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "USB-C · 1.5m · 코일+항공 코일 케이블 USB-C"
+  }
+ },
+ {
+  "id": 27,
+  "sku": "KLACK-DEMO-AC-WRST",
+  "name": "원목 손목받침 65%",
+  "summary": "월넛 원목을 깎아 만든 65% 손목받침",
+  "maker": {
+   "id": 6,
+   "slug": "klack-desk",
+   "nameKo": "클랙 데스크"
+  },
+  "series": null,
+  "categorySlug": "accessory",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 48000,
+  "salePrice": 45000,
+  "discountRate": 6,
+  "thumbUrl": "/uploads/2026/10/202610bdee1cd57164baacde-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 20,
+  "isCustom": false,
+  "optionGroups": 3,
+  "specLine": "월넛 · 65% · 18mm",
+  "groups": [
+   {
+    "id": 108,
+    "name": "커넥터",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 316,
+      "label": "USB-C ↔ USB-C",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 317,
+      "label": "USB-C ↔ USB-A",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 109,
+    "name": "길이",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 318,
+      "label": "1.2m",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 319,
+      "label": "1.5m",
+      "extraPrice": 3000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 320,
+      "label": "1.8m",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 110,
+    "name": "색상",
+    "kind": "swatch",
+    "required": false,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 321,
+      "label": "블랙",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#1F1F1F",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 322,
+      "label": "화이트",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#F2F2F2",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 323,
+      "label": "네이비",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#1F2A44",
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   }
+  ],
+  "sheet": [
+   [
+    "소재",
+    "월넛"
+   ],
+   [
+    "호환",
+    "65%"
+   ],
+   [
+    "높이",
+    "18mm"
+   ],
+   [
+    "품질보증",
+    "1년(12개월)"
+   ],
+   [
+    "납기",
+    "재고 출고"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "재고 있음",
+   "제작 바로 출고",
+   "옵션 3단계"
+  ],
+  "categoryLabel": "액세서리",
+  "tags": [
+   "액세서리"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "월넛 · 65% · 18mm 원목 손목받침 65%"
+  }
+ },
+ {
+  "id": 28,
+  "sku": "KLACK-DEMO-AC-MAT9",
+  "name": "데스크매트 900×400",
+  "summary": "키보드와 마우스를 함께 올리는 대형 데스크매트",
+  "maker": {
+   "id": 6,
+   "slug": "klack-desk",
+   "nameKo": "클랙 데스크"
+  },
+  "series": null,
+  "categorySlug": "accessory",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 32000,
+  "salePrice": 29000,
+  "discountRate": 9,
+  "thumbUrl": "/uploads/2026/10/202610d2feb30ddf12f731a1-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 20,
+  "isCustom": false,
+  "optionGroups": 3,
+  "specLine": "900×400 · 4mm · 오버로크",
+  "groups": [
+   {
+    "id": 111,
+    "name": "커넥터",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 324,
+      "label": "USB-C ↔ USB-C",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 325,
+      "label": "USB-C ↔ USB-A",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 112,
+    "name": "길이",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 326,
+      "label": "1.2m",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 327,
+      "label": "1.5m",
+      "extraPrice": 3000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 328,
+      "label": "1.8m",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 113,
+    "name": "색상",
+    "kind": "swatch",
+    "required": false,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 329,
+      "label": "블랙",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#1F1F1F",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 330,
+      "label": "화이트",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#F2F2F2",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 331,
+      "label": "네이비",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#1F2A44",
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   }
+  ],
+  "sheet": [
+   [
+    "크기",
+    "900×400"
+   ],
+   [
+    "두께",
+    "4mm"
+   ],
+   [
+    "마감",
+    "오버로크"
+   ],
+   [
+    "품질보증",
+    "1년(12개월)"
+   ],
+   [
+    "납기",
+    "재고 출고"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "재고 있음",
+   "제작 바로 출고",
+   "옵션 3단계"
+  ],
+  "categoryLabel": "액세서리",
+  "tags": [
+   "액세서리"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "900×400 · 4mm · 오버로크 데스크매트 900×400"
+  }
+ },
+ {
+  "id": 29,
+  "sku": "KLACK-DEMO-AC-TOOL",
+  "name": "스위치 오프너·키캡 풀러 공구 세트",
+  "summary": "스위치 오프너·키캡 풀러·스위치 풀러 3종",
+  "maker": {
+   "id": 6,
+   "slug": "klack-desk",
+   "nameKo": "클랙 데스크"
+  },
+  "series": null,
+  "categorySlug": "accessory",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 21000,
+  "salePrice": 19000,
+  "discountRate": 10,
+  "thumbUrl": "/uploads/2026/10/202610793da58b1bbaaf4c2b-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 20,
+  "isCustom": false,
+  "optionGroups": 3,
+  "specLine": "3종 · 분해·교체 · 포함",
+  "groups": [
+   {
+    "id": 114,
+    "name": "커넥터",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 332,
+      "label": "USB-C ↔ USB-C",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 333,
+      "label": "USB-C ↔ USB-A",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 115,
+    "name": "길이",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 334,
+      "label": "1.2m",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 335,
+      "label": "1.5m",
+      "extraPrice": 3000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 336,
+      "label": "1.8m",
+      "extraPrice": 5000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 116,
+    "name": "색상",
+    "kind": "swatch",
+    "required": false,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 337,
+      "label": "블랙",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#1F1F1F",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 338,
+      "label": "화이트",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#F2F2F2",
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 339,
+      "label": "네이비",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": "#1F2A44",
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   }
+  ],
+  "sheet": [
+   [
+    "구성",
+    "3종"
+   ],
+   [
+    "용도",
+    "분해·교체"
+   ],
+   [
+    "케이스",
+    "포함"
+   ],
+   [
+    "품질보증",
+    "1년(12개월)"
+   ],
+   [
+    "납기",
+    "재고 출고"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "재고 있음",
+   "제작 바로 출고",
+   "옵션 3단계"
+  ],
+  "categoryLabel": "액세서리",
+  "tags": [
+   "액세서리"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "3종 · 분해·교체 · 포함 스위치 오프너·키캡 풀러 공구 세트"
+  }
+ },
+ {
+  "id": 30,
+  "sku": "KLACK-DEMO-SV-LUBE",
+  "name": "스위치 윤활 서비스",
+  "summary": "보내 주신 스위치를 공방에서 하나씩 열어 윤활합니다",
+  "maker": null,
+  "series": null,
+  "categorySlug": "service",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 30000,
+  "salePrice": 30000,
+  "discountRate": 0,
+  "thumbUrl": "/uploads/2026/10/2026102ebf630d6217d5285f-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 999,
+  "isCustom": true,
+  "optionGroups": 4,
+  "specLine": "70개 · 접수 후 5일 · 택배 접수",
+  "groups": [
+   {
+    "id": 117,
+    "name": "서비스 종류",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 340,
+      "label": "스위치 윤활",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 341,
+      "label": "스태빌 튜닝",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 342,
+      "label": "조립 대행",
+      "extraPrice": 20000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 343,
+      "label": "수리 진단",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 118,
+    "name": "수량 구간",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "스위치 윤활을 고른 경우 스위치 개수 구간.",
+    "dependsOnGroupId": 117,
+    "dependsOnValueIds": [
+     340
+    ],
+    "values": [
+     {
+      "id": 344,
+      "label": "~70개",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 345,
+      "label": "71~90개",
+      "extraPrice": 10000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 346,
+      "label": "91~110개",
+      "extraPrice": 20000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 119,
+    "name": "접수 방법",
+    "kind": "radio",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 347,
+      "label": "택배 보내기",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 348,
+      "label": "방문",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 120,
+    "name": "요청사항",
+    "kind": "text",
+    "required": false,
+    "maxSelect": 1,
+    "help": "키보드 모델·증상·원하는 느낌 등을 적어 주세요.",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": []
+   }
+  ],
+  "sheet": [
+   [
+    "기준",
+    "70개"
+   ],
+   [
+    "기간",
+    "접수 후 5일"
+   ],
+   [
+    "방식",
+    "택배 접수"
+   ],
+   [
+    "납기",
+    "주문 후 5일 · 주문 제작"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "주문 받는 중",
+   "제작 5일",
+   "옵션 4단계"
+  ],
+  "categoryLabel": "공방 서비스",
+  "tags": [
+   "공방 서비스",
+   "주문 제작"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "70개 · 접수 후 5일 · 택배 접수 스위치 윤활 서비스"
+  }
+ },
+ {
+  "id": 31,
+  "sku": "KLACK-DEMO-SV-STAB",
+  "name": "스태빌 튜닝 서비스",
+  "summary": "스태빌 윤활·와이어 조정으로 덜걱임을 잡습니다",
+  "maker": null,
+  "series": null,
+  "categorySlug": "service",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 20000,
+  "salePrice": 20000,
+  "discountRate": 0,
+  "thumbUrl": "/uploads/2026/10/202610be719d8ea29ab517d3-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 999,
+  "isCustom": true,
+  "optionGroups": 4,
+  "specLine": "스태빌 1세트 · 접수 후 3일 · 택배 접수",
+  "groups": [
+   {
+    "id": 121,
+    "name": "서비스 종류",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 349,
+      "label": "스위치 윤활",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 350,
+      "label": "스태빌 튜닝",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 351,
+      "label": "조립 대행",
+      "extraPrice": 20000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 352,
+      "label": "수리 진단",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 122,
+    "name": "수량 구간",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "스위치 윤활을 고른 경우 스위치 개수 구간.",
+    "dependsOnGroupId": 121,
+    "dependsOnValueIds": [
+     349
+    ],
+    "values": [
+     {
+      "id": 353,
+      "label": "~70개",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 354,
+      "label": "71~90개",
+      "extraPrice": 10000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 355,
+      "label": "91~110개",
+      "extraPrice": 20000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 123,
+    "name": "접수 방법",
+    "kind": "radio",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 356,
+      "label": "택배 보내기",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 357,
+      "label": "방문",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 124,
+    "name": "요청사항",
+    "kind": "text",
+    "required": false,
+    "maxSelect": 1,
+    "help": "키보드 모델·증상·원하는 느낌 등을 적어 주세요.",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": []
+   }
+  ],
+  "sheet": [
+   [
+    "대상",
+    "스태빌 1세트"
+   ],
+   [
+    "기간",
+    "접수 후 3일"
+   ],
+   [
+    "방식",
+    "택배 접수"
+   ],
+   [
+    "납기",
+    "주문 후 3일 · 주문 제작"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "주문 받는 중",
+   "제작 3일",
+   "옵션 4단계"
+  ],
+  "categoryLabel": "공방 서비스",
+  "tags": [
+   "공방 서비스",
+   "주문 제작"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "스태빌 1세트 · 접수 후 3일 · 택배 접수 스태빌 튜닝 서비스"
+  }
+ },
+ {
+  "id": 32,
+  "sku": "KLACK-DEMO-SV-ASSM",
+  "name": "조립 대행 서비스",
+  "summary": "부품을 보내 주시면 조립하고 타건 검수 후 돌려 드립니다",
+  "maker": null,
+  "series": null,
+  "categorySlug": "service",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 50000,
+  "salePrice": 50000,
+  "discountRate": 0,
+  "thumbUrl": "/uploads/2026/10/2026104de8bab633530c78a4-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 999,
+  "isCustom": true,
+  "optionGroups": 4,
+  "specLine": "키트 1대 · 접수 후 7일 · 타건 검수",
+  "groups": [
+   {
+    "id": 125,
+    "name": "서비스 종류",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 358,
+      "label": "스위치 윤활",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 359,
+      "label": "스태빌 튜닝",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 360,
+      "label": "조립 대행",
+      "extraPrice": 20000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 361,
+      "label": "수리 진단",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 126,
+    "name": "수량 구간",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "스위치 윤활을 고른 경우 스위치 개수 구간.",
+    "dependsOnGroupId": 125,
+    "dependsOnValueIds": [
+     358
+    ],
+    "values": [
+     {
+      "id": 362,
+      "label": "~70개",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 363,
+      "label": "71~90개",
+      "extraPrice": 10000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 364,
+      "label": "91~110개",
+      "extraPrice": 20000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 127,
+    "name": "접수 방법",
+    "kind": "radio",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 365,
+      "label": "택배 보내기",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 366,
+      "label": "방문",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 128,
+    "name": "요청사항",
+    "kind": "text",
+    "required": false,
+    "maxSelect": 1,
+    "help": "키보드 모델·증상·원하는 느낌 등을 적어 주세요.",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": []
+   }
+  ],
+  "sheet": [
+   [
+    "대상",
+    "키트 1대"
+   ],
+   [
+    "기간",
+    "접수 후 7일"
+   ],
+   [
+    "포함",
+    "타건 검수"
+   ],
+   [
+    "납기",
+    "주문 후 7일 · 주문 제작"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "주문 받는 중",
+   "제작 7일",
+   "옵션 4단계"
+  ],
+  "categoryLabel": "공방 서비스",
+  "tags": [
+   "공방 서비스",
+   "주문 제작"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "키트 1대 · 접수 후 7일 · 타건 검수 조립 대행 서비스"
+  }
+ },
+ {
+  "id": 33,
+  "sku": "KLACK-DEMO-SV-DIAG",
+  "name": "수리·진단 접수",
+  "summary": "입력 불량·채터링 증상을 진단하고 수리 견적을 드립니다",
+  "maker": null,
+  "series": null,
+  "categorySlug": "service",
+  "space": null,
+  "material": null,
+  "materialNote": "",
+  "listPrice": 15000,
+  "salePrice": 15000,
+  "discountRate": 0,
+  "thumbUrl": "/uploads/2026/10/2026101089875bca4b90b3d8-main.webp",
+  "shipType": "parcel",
+  "assembly": "self",
+  "widthMm": null,
+  "depthMm": null,
+  "heightMm": null,
+  "stock": 999,
+  "isCustom": true,
+  "optionGroups": 4,
+  "specLine": "키보드 1대 · 진단 3일 · 수리비 별도",
+  "groups": [
+   {
+    "id": 129,
+    "name": "서비스 종류",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 367,
+      "label": "스위치 윤활",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 368,
+      "label": "스태빌 튜닝",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 369,
+      "label": "조립 대행",
+      "extraPrice": 20000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 370,
+      "label": "수리 진단",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 130,
+    "name": "수량 구간",
+    "kind": "select",
+    "required": true,
+    "maxSelect": 1,
+    "help": "스위치 윤활을 고른 경우 스위치 개수 구간.",
+    "dependsOnGroupId": 129,
+    "dependsOnValueIds": [
+     367
+    ],
+    "values": [
+     {
+      "id": 371,
+      "label": "~70개",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 372,
+      "label": "71~90개",
+      "extraPrice": 10000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     },
+     {
+      "id": 373,
+      "label": "91~110개",
+      "extraPrice": 20000,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 131,
+    "name": "접수 방법",
+    "kind": "radio",
+    "required": true,
+    "maxSelect": 1,
+    "help": "",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": [
+     {
+      "id": 374,
+      "label": "택배 보내기",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": true
+     },
+     {
+      "id": 375,
+      "label": "방문",
+      "extraPrice": 0,
+      "stock": null,
+      "swatchHex": null,
+      "imageUrl": null,
+      "isDefault": false
+     }
+    ]
+   },
+   {
+    "id": 132,
+    "name": "요청사항",
+    "kind": "text",
+    "required": false,
+    "maxSelect": 1,
+    "help": "키보드 모델·증상·원하는 느낌 등을 적어 주세요.",
+    "dependsOnGroupId": null,
+    "dependsOnValueIds": [],
+    "values": []
+   }
+  ],
+  "sheet": [
+   [
+    "대상",
+    "키보드 1대"
+   ],
+   [
+    "기간",
+    "진단 3일"
+   ],
+   [
+    "비고",
+    "수리비 별도"
+   ],
+   [
+    "납기",
+    "주문 후 3일 · 주문 제작"
+   ],
+   [
+    "배송비",
+    "무료배송"
+   ]
+  ],
+  "state": [
+   "주문 받는 중",
+   "제작 3일",
+   "옵션 4단계"
+  ],
+  "categoryLabel": "공방 서비스",
+  "tags": [
+   "공방 서비스",
+   "주문 제작"
+  ],
+  "cfgExtra": {
+   "soldOut": false,
+   "layoutHint": "키보드 1대 · 진단 3일 · 수리비 별도 수리·진단 접수"
+  }
+ }
+]

@@ -1,0 +1,82 @@
+.inq {
+  flex-wrap: wrap;
+  gap: 8px;
+  display: flex;
+}
+.inq-btn {
+  border-radius: var(--r-full);
+  height: 38px;
+  font-size: var(--fs-sm);
+  white-space: nowrap;
+  transition:
+    filter var(--dur) var(--ease),
+    transform var(--dur-fast) var(--ease);
+  align-items: center;
+  gap: 8px;
+  padding: 0 14px;
+  font-weight: 700;
+  display: inline-flex;
+}
+.inq-btn:hover {
+  filter: brightness(0.96);
+}
+.inq-btn:active {
+  transform: scale(0.98);
+}
+.inq-btn.is-kakao {
+  background: var(--slot-kakao);
+  color: var(--slot-kakao-ink);
+}
+.inq-btn.is-ready {
+  opacity: 0.6;
+}
+.inq-btn em {
+  font-style: normal;
+  font-size: var(--fs-tiny);
+  border-radius: var(--r-full);
+  background: #00000024;
+  padding: 1px 6px;
+  font-weight: 600;
+}
+.inq-lg {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  display: grid;
+}
+.inq-lg .inq-btn {
+  border-radius: var(--r-card);
+  white-space: normal;
+  text-align: left;
+  justify-content: flex-start;
+  gap: 12px;
+  height: auto;
+  padding: 16px 18px;
+}
+.inq-lg .inq-btn span {
+  flex: 1;
+  gap: 2px;
+  min-width: 0;
+  display: grid;
+}
+.inq-lg .inq-btn b {
+  font-size: var(--fs-md);
+}
+.inq-lg .inq-btn small {
+  font-weight: 500;
+  font-size: var(--fs-xs);
+  opacity: 0.8;
+}
+.inq-lg .inq-btn i {
+  font-style: normal;
+  font-size: var(--fs-lg);
+  opacity: 0.7;
+}
+@media (max-width: 760px) {
+  .inq-lg {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .inq-sm .inq-btn {
+    flex: calc(50% - 4px);
+    justify-content: center;
+  }
+}
